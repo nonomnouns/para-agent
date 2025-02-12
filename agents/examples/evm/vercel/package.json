@@ -13,6 +13,8 @@
         "@para-agent/hub": "workspace:*",
         "@para-agent/para-evm": "workspace:*",
         "@para-agent/para-viem": "workspace:*",
+        "@para-agent/para-core": "workspace:*",
+        "@para-agent/connector-vercel-ai": "workspace:*",
         "ai": "catalog:",
         "dotenv": "^16.4.5",
         "viem": "2.21.49"

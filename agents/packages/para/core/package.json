@@ -1,8 +1,12 @@
 {
-    "name": "@para-agent/para-server",
+    "name": "@para-agent/para-core",
     "version": "0.0.1",
     "sideEffects": false,
-    "files": ["dist/**/*", "README.md", "package.json"],
+    "files": [
+        "dist/**/*",
+        "README.md",
+        "package.json"
+    ],
     "scripts": {
         "build": "tsup",
         "clean": "rm -rf dist",
@@ -12,12 +16,20 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "dependencies": {
+        "@getpara/server-sdk": "1.1.0",
+        "@getpara/solana-web3.js-v1-integration": "1.1.0",
+        "@getpara/viem-v2-integration": "1.1.0",
         "@para-agent/para-evm": "workspace:*",
-        "viem": "catalog:"
+        "@solana/web3.js": "1.98.0",
+        "viem": "2.21.49"
     },
     "peerDependencies": {
         "@para-agent/para-evm": "workspace:*",
         "viem": "catalog:"
     },
-    "keywords": ["ai", "agents", "web3"]
+    "keywords": [
+        "ai",
+        "agents",
+        "web3"
+    ]
 }
