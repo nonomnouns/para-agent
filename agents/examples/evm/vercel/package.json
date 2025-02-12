@@ -1,0 +1,20 @@
+{
+    "name": "para-agent-examples-vercel-ai-evm",
+    "version": "0.0.1",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "test": "vitest run --passWithNoTests"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@ai-sdk/openai": "^1.0.4",
+        "@para-agent/hub": "workspace:*",
+        "@para-agent/para-evm": "workspace:*",
+        "@para-agent/para-viem": "workspace:*",
+        "ai": "catalog:",
+        "dotenv": "^16.4.5",
+        "viem": "2.21.49"
+    }
+}
